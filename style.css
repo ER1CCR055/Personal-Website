@@ -1,5 +1,5 @@
-body {background-color: darkcyan; };
-
+body {background-color: darkcyan;};
+index {background-color: darkcyan;};
 home {background-color: darkcyan;};
 about {background-color: darkcyan;};
 portfolio {background-color: darkcyan;};
@@ -13,7 +13,16 @@ section {
 
 
 img { width: 475px; height: 360px;
+    box-sizing: border-box;
     align-content: center;
+    object-position: center;
     border: 10px solid black;
 }
 
+h1 { 
+    color:goldenrod;
+    font-style:normal; font-size:xx-large;
+    text-align: center;
+    margin: 5px 5px 5px 5px;
+    background-color: darkcyan;
+}
