@@ -1,0 +1,19 @@
+body {background-color: darkcyan; };
+
+home {background-color: darkcyan;};
+about {background-color: darkcyan;};
+portfolio {background-color: darkcyan;};
+
+header {text-align: right;};
+
+section { 
+    width: 100%;
+    height: auto;
+}
+
+
+img { width: 475px; height: 360px;
+    align-content: center;
+    border: 10px solid black;
+}
+
