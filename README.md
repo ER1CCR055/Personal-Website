@@ -1,7 +1,7 @@
 # Personal-Website
 
--Build a webpage with 3 working links for Home, About, Portfolio.
+-Build a webpage with 4 working links for Home, About, Portfolio, & Contact 
 
--Add photos and format text on all 3 pages.
+-Add photos and format text on all pages.
 
--Add project to Github
+-Push project to Github for partner review/collaboration and grading
