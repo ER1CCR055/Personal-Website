@@ -4,27 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Contact</title>
+    <script src="./javascript.js"></script>
+    <title>Contact Me</title>
+    <link rel="stylesheet"href="style.css">
 </head>
 <body>
-    <p>Feel free to contact me by submitting the following form.</p>
-    <div class="form">
-    <form method="post" action="formsubmitted.html">
-        <label for="name">Name: 
-            <input type="text" id="name" placeholder="name">
-        </label>
+    <header>
+        <h1>Contact Me</h1>
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html"><u>HOME</u></a></li>
+                <li><a href="about.html"><u>ABOUT</u></a></li>
+                <li><a href="portfolio.html"><u>PORTFOLIO</u></a></li>
+                <li><a href="contact.html"><u>CONTACT</u></a></li>
+            </ul>
+        </div>  
+    </header>
+<h2>Please Contact Me For More Information:</h2>
+    <img src="contact.me.png" alt="Contact Photo"><br>
+    <br>
+<div>
+    <form action="/action_page.php" target="_blank" method="GET">
+    <label for="fname">Full Name:</label><br>
+    <input type="text" value="Full Name"><br>
+    <input type="submit" value="Submit"><br>
+    
+    <br>
+    <label for="email">Email Address:<br> 
+        <input type="text" value="Email Address"><br>
+        <input type="submit" value="Submit"><br>
+    </label>
 
-        <label for="email">Email: 
-            <input type="email" placeholder="email">
-        </label>
-
-        <label for="message field">Message field:
-            <input type="message" placeholder="message">
-        </label>
+    <br>
+    <label for="message field">Message Field:<br>
+        <input type="text" value="Type Your Message" style="height:250px;width: 350px;"font-size:12pt;></br>
         <input type="submit" value="Submit">
+    </label>
+    
+</form>
+</form>
+
+
+
     </form>
-    </div>
+
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+
 
 </body>
 </html>
